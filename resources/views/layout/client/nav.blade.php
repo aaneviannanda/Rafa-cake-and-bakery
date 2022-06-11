@@ -21,7 +21,7 @@
 
                     @if (Route::has('login'))
                         <li class="nav-button">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            <a class="nav-link text-center" href="{{ route('login') }}">{{ __('Login') }}</a>
                         </li>
                     @endif
 

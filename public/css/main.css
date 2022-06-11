@@ -119,7 +119,7 @@ h2 {
     border-radius: 10px;
 }
 
-.button__buy {
+.btn__buy {
     background-color: #3be02a;
     color: white;
     min-width: 44px;
@@ -127,9 +127,10 @@ h2 {
     font-size: 20px;
 }
 
-.button__fav {
+.btn__fav {
     position: absolute;
     right: 1.5em;
+    bottom: 15px;
     background-color: #fc3943fb;
     color: white;
     min-width: 44px;
@@ -162,6 +163,12 @@ h2 {
 .header__product {
     margin-left: 1.8em;
     margin-bottom: 1em;
+}
+
+.product__category {
+    margin-left: 2.1em;
+    color: #fc3ba4;
+    font-weight: 500;
 }
 
 /* Styling hero 2 */
@@ -204,6 +211,7 @@ h2 {
 
 .description__about p {
     text-align: justify;
+    font-size: 18px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -260,6 +268,7 @@ h2 {
 
 .detail__img img {
     width: 100%;
+    height: 500px;
     border-radius: 15px;
     object-fit: cover;
 }

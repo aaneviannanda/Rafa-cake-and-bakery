@@ -12,12 +12,12 @@
     <!-- Card Product-->
     <div class="row">
         @if (count($favorite_products) == 0)
-            <h1>test</h1>
+            <h3 class="text-center">"please add the product to favorites first"</h3>
         @else
             @foreach ($favorite_products as $popular)
                 <div class="col-md-4 d-flex justify-content-center container__card">
                     <div class="card card__item" style="width: 20rem">
-                        <img src="{{ asset('product_img/'.$popular->products->link_img) }}" class="card-img-top" alt="Roti unyil" />
+                        <img src="{{ asset('product_img/'.$popular->products->link_img) }}" class="card-img-top" alt="{{ $popular->products->link_img }}" style="height: 230px;" />
                         <div class="card__price">Rp. {{ $popular->products->price }}</div>
                         <div class="card-body">
                             <h5 class="card-title"><a tabindex="0" href="">{{ $popular->products->name }}</a></h5>

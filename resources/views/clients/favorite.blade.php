@@ -1,13 +1,13 @@
 @extends('layout.client')
 @section('content')
     <!-- Favorite -->
-    <div class="my__favorite">
+    <div class="container-fluid my__favorite">
         <h2 class="text-center">My Favorite</h2>
         <div class="row">
             @foreach ($dataFavorites as $favorite)
                 <div class="col-md-4 d-flex justify-content-center container__card">
-                    <div class="card card__item" style="width: 18rem">
-                        <img src="{{ asset('product_img/'.$favorite->products->link_img) }}" class="card-img-top" alt="Roti unyil" />
+                    <div class="card card__item" style="width: 20rem">
+                        <img src="{{ asset('product_img/'.$favorite->products->link_img) }}" class="card-img-top" alt="{{ $favorite->products->link_img }}" style="height: 230px;" />
                         <div class="card__price">Rp. {{ $favorite->products->price }}</div>
                         <div class="card-body">
                             <h5 class="card-title"><a tabindex="0" href="{{ route('product_detail', ['id' => $favorite->products->id]) }}">{{ $favorite->products->name }}</a></h5>

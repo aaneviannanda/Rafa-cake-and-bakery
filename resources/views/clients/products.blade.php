@@ -12,11 +12,11 @@
     <!-- Card Product-->
     @foreach ($data as $key => $products)
         <div class="row">
-            <h3>{{ $key }}</h3>
+            <h3 class="product__category">{{ $key }} Product</h3>
             @foreach ($products as $product)
                 <div class="col-md-4 d-flex justify-content-center container__card">
                     <div class="card card__item" style="width: 20rem">
-                        <img src="{{ asset('product_img/'.$product['link_img']) }}" class="card-img-top" alt="Roti unyil" />
+                        <img src="{{ asset('product_img/'.$product['link_img']) }}" class="card-img-top" alt="{{ $product['link_img'] }}" style="height: 230px;"/>
                         <div class="card__price">Rp. {{ $product['price'] }}</div>
                         <div class="card-body">
                             <h5 class="card-title"><a tabindex="0" href="{{ route('product_detail', ['id' => $product['id']]) }}">{{ $product['name'] }}</a></h5>
