@@ -40,9 +40,11 @@ php artisan serve
 
 
 Notes : to access the admin dashboard
-> create an admin account via the registration menu
+> create an admin account via registration menu
 
 > open database localhost/phpmyadmin : rafa-cake
+
+> open users table
 
 > update isAdmin from 0 to 1
 
