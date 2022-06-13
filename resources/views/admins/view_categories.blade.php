@@ -43,11 +43,13 @@
                         <td>{{ $no }}</td>
                         <td>{{ $category->name}}</td>
                         <td>
-                            <button data-toggle="modal" data-target="#edit__category_{{ $category->id }}" class="btn btn-warning">Edit</button>
-                            <form method="POST" action="{{ route('delete_category', ['id' => $category->id]) }}">
-                            @csrf
-                                <button type = "submit" class="btn btn-danger">{{ __('Hapus') }}</button>
-                            </form>
+                            <div class="d-inline-flex add_category_btn">
+                                <button data-toggle="modal" data-target="#edit__category_{{ $category->id }}" class="btn btn-warning">Edit</button>
+                                <form method="POST" action="{{ route('delete_category', ['id' => $category->id]) }}">
+                                @csrf
+                                    <button type = "submit" class="btn btn-danger">{{ __('Hapus') }}</button>
+                                </form>
+                            </div>
                         </td>
                     </tr>
                 @endforeach

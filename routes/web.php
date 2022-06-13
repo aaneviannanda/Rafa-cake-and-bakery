@@ -38,7 +38,6 @@ Route::get('/product/{id}', [ProductController::class, 'detail'])->name('product
 Auth::routes();
 
 Route::group(['client' => 'Dashboard', 'middleware' => ['auth:web','isClient'], 'prefix' => '/'], function () {
-    Route::get('/home', [DashboardClientController::class, 'indexDashboardClient'])->name('clientHome');
     Route::get('/favorite', [FavoriteController::class, 'index'])->name('favorite');
     Route::post('/favorite/insert', [FavoriteController::class, 'insert'])->name('insert_favorite');
     Route::post('/favorite/delete/{id}', [FavoriteController::class, 'delete'])->name('delete_favorite');

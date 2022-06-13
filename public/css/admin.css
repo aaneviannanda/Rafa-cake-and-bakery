@@ -1,0 +1,13 @@
+.add_product_btn button {
+    min-width: 44px;
+    height: 44px;
+}
+
+.btn-warning {
+    margin-right: 1em;
+}
+
+.add_category_btn button {
+    min-width: 44px;
+    height: 44px;
+}

@@ -254,6 +254,10 @@ h2 {
     border-radius: 15px;
 }
 
+.contact__desc p {
+    font-size: 18px;
+}
+
 /* Styling detail items */
 .detail__items h2 {
     margin-top: 4em;

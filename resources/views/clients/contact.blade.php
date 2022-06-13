@@ -4,8 +4,10 @@
     <h2 class="text-center">Contact Us</h2>
     <div class="container-fluid">
         <section id="contact">
-            <div class="container">
-                <p class="text-center w-75 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum purus at sem ornare sodales. Morbi leo nulla, pharetra vel felis nec, ullamcorper condimentum quam.</p>
+            <div class="container contact__desc">
+                <p class="text-center w-75 m-auto">Let's make something awesome together. 
+                    Contact me if you want to know more about rafa cake & bakery. 
+                    We hope you are satisfied with our products and services.</p>
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                         <div class="card border-0">

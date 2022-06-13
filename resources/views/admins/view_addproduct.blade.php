@@ -51,11 +51,13 @@
                         <td>{{ $product->rating }}</td>
                         <td>{{ $product->description }}</td>
                         <td class="text-center">
-                            <button data-toggle="modal" data-target="#edit__product_{{ $product->id }}" class="btn btn-sm btn-warning">Edit</button>
-                            <form method="POST" action="{{ route('delete_product', ['id' => $product->id]) }}" enctype="multipart/form-data">
-                                @csrf
-                                <button type = "submit" class="btn btn-sm btn-danger">{{ __('Hapus') }}</button>
-                            </form>
+                            <div class="d-inline-flex add_product_btn">
+                                <button data-toggle="modal" data-target="#edit__product_{{ $product->id }}" class="btn btn-sm btn-warning">Edit</button>
+                                <form method="POST" action="{{ route('delete_product', ['id' => $product->id]) }}" enctype="multipart/form-data">
+                                    @csrf
+                                    <button type = "submit" class="btn btn-sm btn-danger">{{ __('Hapus') }}</button>
+                                </form>
+                            </div>
                         </td>
                     </tr>
                 @endforeach
