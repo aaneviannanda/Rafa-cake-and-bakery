@@ -29,6 +29,10 @@
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/b070c8f1df.js" crossorigin="anonymous"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+
+    <!-- Sweet Alert -->
+    <script src="{{ asset('js/sweetalert.min.js') }}"></script>
+    @laravelPWA
 </head>
 <body>
     <div class="body">

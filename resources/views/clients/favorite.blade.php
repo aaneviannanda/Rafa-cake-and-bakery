@@ -2,6 +2,9 @@
 @section('content')
     <!-- Favorite -->
     <div class="container-fluid my__favorite">
+        @if (Session::has('fav-error'))
+            <script>swal("Failed actions!", "{{ Session::get('fav-error') }}", "error");</script>
+        @endif
         <h2 class="text-center">My Favorite</h2>
         <div class="row">
             @foreach ($dataFavorites as $favorite)

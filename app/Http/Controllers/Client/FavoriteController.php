@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Favorite;
 use Auth;
+use Session;
 class FavoriteController extends Controller
 {
     public function __construct(){
@@ -20,7 +21,12 @@ class FavoriteController extends Controller
 
     public function insert(Request $request){
         $id = Auth::id();
-        Favorite::create(['user_id' => $id, 'product_id' => $request->product_id]);
+        $data = Favorite::where(['user_id' => $id, 'product_id' => $request->product_id])->get();
+        if(count($data) == 0){
+            Favorite::create(['user_id' => $id, 'product_id' => $request->product_id]);
+        }else{
+            Session::flash('fav-error', "Data sudah ditambahkan di favorite!");
+        }
         return redirect()->route('favorite');
     }
 
