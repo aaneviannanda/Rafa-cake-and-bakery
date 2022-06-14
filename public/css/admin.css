@@ -11,3 +11,12 @@
     min-width: 44px;
     height: 44px;
 }
+
+.bg__navbar {
+    background-color: #4b404a;
+}
+
+.navbar__top {
+    background-color: #393138;
+    color: white;
+}

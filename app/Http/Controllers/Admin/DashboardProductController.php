@@ -13,7 +13,7 @@ class DashboardProductController extends Controller
 {
     public function index(){
         $categories = Category::all();
-        $products = Product::with(['categories'])->paginate(10);
+        $products = Product::with(['categories'])->paginate(25);
         return view('admins.view_addproduct', compact('categories', 'products'));
     }
 

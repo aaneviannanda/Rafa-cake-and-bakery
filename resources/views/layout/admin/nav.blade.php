@@ -1,4 +1,4 @@
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion navbar-sidenav" id="accordionSidebar">
+<ul class="navbar-nav bg__navbar sidebar sidebar-dark accordion navbar-sidenav" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('adminHome'); }}">

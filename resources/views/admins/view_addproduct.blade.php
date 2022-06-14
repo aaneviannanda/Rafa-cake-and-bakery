@@ -17,7 +17,7 @@
                 <div class="row no-gutters">
                     <div class="col-12">
                         <div class="d-flex justify-content-end mb-3">
-                            <a href="#" data-toggle="modal" data-target="#add__product" class="btn btn-info btn-icon-split">
+                            <a href="#" data-toggle="modal" data-target="#add__product" class="btn btn-primary btn-icon-split">
                                 <span class="icon text-white-50">
                                     <i class="fas fa-plus"></i>
                                 </span>
@@ -94,7 +94,6 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="image">Image</label>
-                                    {{-- <input name="description" type="text" class="form-control" id="description" placeholder="Enter Link img"> --}}
                                     <input name="image" type="file" class="form-control" id="image">
                                 </div>
                                 <div class="form-group">

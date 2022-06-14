@@ -35,7 +35,8 @@
     @laravelPWA
 </head>
 <body>
-    <div class="body">
+    <a href="#main__content" class="skip__link">Skip to content</a>
+    <div class="main__content">
         <div>
             @include('layout.client.nav')
             @yield('content')

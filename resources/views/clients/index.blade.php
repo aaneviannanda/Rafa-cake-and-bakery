@@ -20,12 +20,12 @@
                         <img src="{{ asset('product_img/'.$popular->products->link_img) }}" class="card-img-top" alt="{{ $popular->products->link_img }}" style="height: 230px;" />
                         <div class="card__price">Rp. {{ $popular->products->price }}</div>
                         <div class="card-body">
-                            <h5 class="card-title"><a tabindex="0" href="">{{ $popular->products->name }}</a></h5>
+                            <h4 class="card-title"><a tabindex="0" href="">{{ $popular->products->name }}</a></h4>
                             <p class="card__rating">
                                 Rating : <span class="fa fa-star"></span>
                                 <span class="card__rating__value" aria-label="rating ">{{ $popular->products->rating }}</span>
                             </p>
-                            <p class="card-text">{{ $popular->products->description }}</p>
+                            <div class="card-text card__desc">{{ $popular->products->description }}</div>
                             <a href="https://wa.me/6285624378677" class="btn btn__buy">Hubungi<i class="fa fa-whatsapp fa-1.5x ms-3" aria-hidden="true"></i></a>
                             @guest
                                 <a href="{{ route('login') }}" class="btn btn__fav">Fav<i class="fa fa-heart fa-1.5x ms-3" aria-hidden="true"></i></a>

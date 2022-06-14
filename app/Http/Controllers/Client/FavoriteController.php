@@ -25,7 +25,7 @@ class FavoriteController extends Controller
         if(count($data) == 0){
             Favorite::create(['user_id' => $id, 'product_id' => $request->product_id]);
         }else{
-            Session::flash('fav-error', "Data sudah ditambahkan di favorite!");
+            Session::flash('fav-error', "Data has been added!");
         }
         return redirect()->route('favorite');
     }
