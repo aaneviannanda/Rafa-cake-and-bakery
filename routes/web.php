@@ -47,6 +47,7 @@ Route::group(['admin' => 'Dashboard', 'middleware' => ['auth:web','isAdmin'], 'p
     Route::get('/', [DashboardAdminController::class, 'indexDashboardAdmin'])->name('adminHome');
     Route::get('/products', [DashboardProductController::class, 'index'])->name('products');
     Route::get('/categories', [DashboardCategoryController::class, 'index'])->name('categories');
+    Route::get('/get-data', [DashboardAdminController::class, 'getData'])->name('get-products');
 
     // Categories Handler Routes
     Route::post('/categories/insert', [DashboardCategoryController::class, 'add_category'])->name('insert_category');
