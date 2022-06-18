@@ -37,8 +37,6 @@ php artisan migrate
 php artisan serve
 ```
 
-
-
 Notes : to access the admin dashboard
 > create an admin account via registration menu
 
@@ -49,3 +47,6 @@ Notes : to access the admin dashboard
 > update isAdmin from 0 to 1
 
 > Login using Admin account
+
+
+Link Apps : https://rafa-cake.herokuapp.com/
