@@ -190,7 +190,7 @@ h2 {
     margin-top: 2.5em;
     display: flex;
     align-items: center;
-    max-height: 400px;
+    min-height: 400px;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;

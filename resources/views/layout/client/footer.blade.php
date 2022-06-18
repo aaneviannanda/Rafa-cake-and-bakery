@@ -54,7 +54,7 @@ class="text-center text-lg-start text-white">
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
             <p><i class="fa fa-home"></i> Jl.Kandang Perahu Gang Jati No.42, Karyamulya, Kec.Kesambi, Kota Cirebon, Jawa Barat 45131r</p>
-            <p><i class="fa fa-envelope"></i> rafacake@gmail.com</p>
+            <p><i class="fa fa-envelope"></i>rafacakebakery@gmail.com</p>
             <p><i class="fa fa-phone"></i> +62 856 2437 8677</p>
             <p><i class="fa fa-print"></i> +62 856 2437 8677</p>
         </div>
