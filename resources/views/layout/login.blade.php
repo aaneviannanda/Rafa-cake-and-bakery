@@ -9,7 +9,7 @@
     <meta name="description" content="This website contains information about rafa cake & bakery products" />
 
     <!-- Icon -->
-    <link rel="icon" href="{{ asset('assets/image/logo.png') }}">
+    <link rel="icon" href="{{ asset('img/favicon-rafa.png') }}">
 
     <!-- Title Website -->
     <title>RAFA CAKE & BAKERY - CPSG62</title>    
