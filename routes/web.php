@@ -29,10 +29,6 @@ use App\Http\Controllers\Admin\DashboardCategoryController;
 |
 */
 
-if(env('APP_ENV') === 'production'){
-    URL::forceSchema('https');
-}
-
 Route::get('/', [HomeController::class, 'viewIndex'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
