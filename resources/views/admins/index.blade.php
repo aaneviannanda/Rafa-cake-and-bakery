@@ -78,23 +78,5 @@
         );
 
         updateChart();
-
-        // $(document).ready(function(e){
-        //     $.ajax({
-        //         type:"GET",
-        //         url:"{{ route('get-products') }}",
-        //         success:function(data){
-        //             // console.log(data);
-        //             const datas = JSON.parse(data);
-        //             // console.log(datas);
-        //             datas.map((val) => {
-        //                 datasets.push(val.total);
-        //                 label.push(val.products.name);
-        //             });
-
-        //             myChart.update();
-        //         }
-        //     });
-        // });
     </script>
 @endsection
