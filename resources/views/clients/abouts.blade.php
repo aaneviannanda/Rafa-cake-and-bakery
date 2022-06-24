@@ -23,9 +23,9 @@
       <div class="container">
         <div class="row justify-content-center">          
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
+            <div class="card border-0 shadow-lg my-5 position-relative">
               <div class="card-body p-4">
-                <div class="member-profile position-absolute w-100 text-center">
+                <div class="member-profile w-100 text-center">
                     <img class="img__team rounded-circle d-inline-block shadow-sm" src="{{ asset('img/lucas.jpeg') }}" alt="Lucas Marcellino" style="width: 100px; height: 100px;">
                   </div>
                 <div class="name__team card-text pt-1">
@@ -36,9 +36,9 @@
             </div><!--//card-->
           </div><!--//col-->
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
+            <div class="card border-0 shadow-lg my-5 position-relative">
               <div class="card-body p-4">
-                <div class="member-profile position-absolute w-100 text-center">
+                <div class="member-profile w-100 text-center">
                     <img class="img__team rounded-circle d-inline-block shadow-sm" src="{{ asset('img/azmah.jpeg') }}" alt="" alt="Lucas Marcellino" style="width: 100px; height: 100px;">
                   </div>
                 <div class="name__team card-text pt-1">
@@ -49,9 +49,9 @@
             </div><!--//card-->
           </div><!--//col-->
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
+            <div class="card border-0 shadow-lg my-5 position-relative">
               <div class="card-body p-4">
-                <div class="member-profile position-absolute w-100 text-center">
+                <div class="member-profile w-100 text-center">
                     <img class="img__team rounded-circle d-inline-block shadow-sm" src="{{ asset('img/tegar.jpeg') }}" alt="Tegar Shallahudin A" style="width: 100px; height: 100px;">
                   </div>
                 <div class="name__team card-text pt-1">
@@ -62,9 +62,9 @@
             </div><!--//card-->
           </div><!--//col-->
           <div class="col-12 col-md-4 col-lg-4">
-            <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
+            <div class="card border-0 shadow-lg my-5 position-relative">
               <div class="card-body p-4">
-                <div class="member-profile position-absolute w-100 text-center">
+                <div class="member-profile w-100 text-center">
                     <img class="img__team rounded-circle d-inline-block shadow-sm" src="{{ asset('img/aan.jpg') }}" alt="Aan Evian Nanda" style="width: 100px; height: 100px;">
                   </div>
                 <div class="name__team card-text pt-1">
