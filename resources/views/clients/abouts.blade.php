@@ -19,7 +19,7 @@
     </div>
     <!-- Team -->
     <h2 class="text-center">Team</h2>
-    <section class="team-section py-5">
+    <section class="team-section">
       <div class="container">
         <div class="row justify-content-center">          
           <div class="col-12 col-md-4 col-lg-4">
