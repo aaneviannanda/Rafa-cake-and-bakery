@@ -312,6 +312,9 @@ h2 {
 
 .rounded-circle {
     border-radius: 50% !important;
+}
+
+.img__team{
     margin-top: -10em;
     margin-left: -2.6em;
 }
