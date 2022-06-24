@@ -25,6 +25,9 @@
     @laravelPWA
     <script src="{{ asset('template/vendor/jquery/jquery.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="{{ asset('js/sweetalert.min.js') }}"></script>
 </head>
 
 <body id="page-top">
