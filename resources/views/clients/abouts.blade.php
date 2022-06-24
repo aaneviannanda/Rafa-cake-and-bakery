@@ -26,7 +26,7 @@
             <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
               <div class="card-body p-4">
                 <div class="member-profile position-absolute w-100 text-center">
-                    <img class="rounded-circle mx-auto d-inline-block shadow-sm" src="{{ asset('img/lucas.jpeg') }}" alt="Lucas Marcellino" style="width: 100px; height: 100px;">
+                    <img class="rounded-circle d-inline-block shadow-sm" src="{{ asset('img/lucas.jpeg') }}" alt="Lucas Marcellino" style="width: 100px; height: 100px;">
                   </div>
                 <div class="name__team card-text pt-1">
                   <h5 class="member-name mb-0 text-center font-weight-bold">Lucas Marcellino</h5>
@@ -39,7 +39,7 @@
             <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
               <div class="card-body p-4">
                 <div class="member-profile position-absolute w-100 text-center">
-                    <img class="rounded-circle mx-auto d-inline-block shadow-sm" src="{{ asset('img/azmah.jpeg') }}" alt="" alt="Lucas Marcellino" style="width: 100px; height: 100px;">
+                    <img class="rounded-circle d-inline-block shadow-sm" src="{{ asset('img/azmah.jpeg') }}" alt="" alt="Lucas Marcellino" style="width: 100px; height: 100px;">
                   </div>
                 <div class="name__team card-text pt-1">
                   <h5 class="member-name mb-0 text-center font-weight-bold">Azmah Rasyidah</h5>
@@ -52,7 +52,7 @@
             <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
               <div class="card-body p-4">
                 <div class="member-profile position-absolute w-100 text-center">
-                    <img class="rounded-circle mx-auto d-inline-block shadow-sm" src="{{ asset('img/tegar.jpeg') }}" alt="Tegar Shallahudin A" style="width: 100px; height: 100px;">
+                    <img class="rounded-circle d-inline-block shadow-sm" src="{{ asset('img/tegar.jpeg') }}" alt="Tegar Shallahudin A" style="width: 100px; height: 100px;">
                   </div>
                 <div class="name__team card-text pt-1">
                   <h5 class="member-name mb-0 text-center font-weight-bold">Tegar Shallahudin Al Ayubi</h5>
@@ -65,7 +65,7 @@
             <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
               <div class="card-body p-4">
                 <div class="member-profile position-absolute w-100 text-center">
-                    <img class="rounded-circle mx-auto d-inline-block shadow-sm" src="{{ asset('img/aan.jpg') }}" alt="Aan Evian Nanda" style="width: 100px; height: 100px;">
+                    <img class="rounded-circle d-inline-block shadow-sm" src="{{ asset('img/aan.jpg') }}" alt="Aan Evian Nanda" style="width: 100px; height: 100px;">
                   </div>
                 <div class="name__team card-text pt-1">
                   <h5 class="member-name mb-0 text-center font-weight-bold">Aan Evian Nanda</h5>
