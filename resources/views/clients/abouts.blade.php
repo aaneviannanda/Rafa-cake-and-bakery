@@ -17,6 +17,66 @@
             About Us (Contains an explanation and introduction from the Rafa Cake and Bakery shop), Whatsapp (functions to contact the seller for product orders).</p>
         </div>
     </div>
+    <!-- Team -->
+    <section class="team-section py-5">
+      <div class="container">
+        <div class="row justify-content-center">          
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
+              <div class="card-body p-4">
+                <div class="member-profile position-absolute w-100 text-center">
+                    <img class="rounded-circle mx-auto d-inline-block shadow-sm" src="{{ asset('img/lucas.jpeg') }}" alt="">
+                  </div>
+                <div class="card-text pt-1">
+                  <h5 class="member-name mb-0 text-center font-weight-bold">Lucas Marcellino</h5>
+                  <div class="mb-3 text-center">Member of CPSG-62</div>
+                </div>
+              </div><!--//card-body-->
+            </div><!--//card-->
+          </div><!--//col-->
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
+              <div class="card-body p-4">
+                <div class="member-profile position-absolute w-100 text-center">
+                    <img class="rounded-circle mx-auto d-inline-block shadow-sm" src="{{ asset('img/azmah.jpeg') }}" alt="">
+                  </div>
+                <div class="card-text pt-1">
+                  <h5 class="member-name mb-0 text-center font-weight-bold">Azmah Rasyidah</h5>
+                  <div class="mb-3 text-center">Member of CPSG-62</div>
+                </div>
+              </div><!--//card-body-->
+            </div><!--//card-->
+          </div><!--//col-->
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
+              <div class="card-body p-4">
+                <div class="member-profile position-absolute w-100 text-center">
+                    <img class="rounded-circle mx-auto d-inline-block shadow-sm" src="{{ asset('img/tegar.jpeg') }}" alt="">
+                  </div>
+                <div class="card-text pt-1">
+                  <h5 class="member-name mb-0 text-center font-weight-bold">Tegar Shallahudin Al Ayubi</h5>
+                  <div class="mb-3 text-center">Member of CPSG-62</div>
+                </div>
+              </div><!--//card-body-->
+            </div><!--//card-->
+          </div><!--//col-->
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-lg pt-5 my-5 position-relative">
+              <div class="card-body p-4">
+                <div class="member-profile position-absolute w-100 text-center">
+                    <img class="rounded-circle mx-auto d-inline-block shadow-sm" src="{{ asset('img/aan.jpg') }}" alt="">
+                  </div>
+                <div class="card-text pt-1">
+                  <h5 class="member-name mb-0 text-center font-weight-bold">Aan Evian Nanda</h5>
+                  <div class="mb-3 text-center">Member of CPSG-62</div>
+                </div>
+              </div><!--//card-body-->
+            </div><!--//card-->
+          </div><!--//col-->
+        </div><!--//row-->
+      </div>
+  </section>
+    <!-- End Team -->
   </div>
 <div>
 @include('layout.client.footer')
