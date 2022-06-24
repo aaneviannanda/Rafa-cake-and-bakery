@@ -277,7 +277,6 @@ h2 {
 .shadow-lg {
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
 }
-
 .card {
     position: relative;
     display: -webkit-flex;
@@ -296,21 +295,14 @@ h2 {
     top: -50px;
     left: 0;
 }
-
 .text-center {
     text-align: center !important;
 }
-
 .w-100 {
     width: 100% !important;
 }
-
 .position-absolute {
     position: absolute !important;
-}
-
-.name__team h5{
-    color: #cf2e86;
 }
 
 .member-profile img {
