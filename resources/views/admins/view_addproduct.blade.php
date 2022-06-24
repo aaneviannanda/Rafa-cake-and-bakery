@@ -8,6 +8,9 @@
 
 <!-- DataTales Example -->
 <div class="card shadow mb-4">
+    @if (Session::has('success'))
+        <script>swal("Success actions!", "{{ Session::get('success') }}", "success");</script>
+    @endif
     <div class="card-header py-3">
         <h6 class="m-0 font-weight-bold text-primary">Products</h6>
     </div>

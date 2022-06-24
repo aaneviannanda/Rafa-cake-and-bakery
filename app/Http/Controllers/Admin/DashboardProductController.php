@@ -8,6 +8,7 @@ use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
+use Session;
 
 class DashboardProductController extends Controller
 {
@@ -32,6 +33,7 @@ class DashboardProductController extends Controller
             'rating' => $request->rating,
             'description' => $request->description
         ]);
+        Session::flash('success', "data added successfully!");
         return redirect()->route('products');
     }
 
@@ -60,6 +62,7 @@ class DashboardProductController extends Controller
             $product->link_img = $filename;
         };
         $product->save();
+        Session::flash('success', "data has been edit!");
         return redirect()->route('products');
     }
 
@@ -68,6 +71,7 @@ class DashboardProductController extends Controller
         $destinationPath = 'product_img';
         File::delete($destinationPath.'/'.$product->link_img);
         $product->delete();
+        Session::flash('success', "data has been deleted!");
         return redirect()->route('products');
     }
 }

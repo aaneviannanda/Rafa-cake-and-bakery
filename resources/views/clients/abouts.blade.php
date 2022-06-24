@@ -9,13 +9,12 @@
         </div>
         <div class="col-md-6 description__about">
           <h3>Rafa Cake & Bakery</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting, 
-                remaining essentially unchanged.</p>
-          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p>Rafa Cake and Bakery is a web-based application project that aims to introduce Rafa Cake and Bakery, 
+            introduce products that are sold at the venue, and can also order them via Whatsapp.</p>
+          <p>We hope this website can help buyers and owners of Rafa Cake & Bakery to be more efficient in ordering products.</p>
+          <p>The features of the rafa cake and bakery application include Home (Landing Page for initial introduction and displaying superior products at Rafa Cake and Bakery), 
+            Catalog (various products sold), Favorite (Products that have been added to the favorite menu by the user) , 
+            About Us (Contains an explanation and introduction from the Rafa Cake and Bakery shop), Whatsapp (functions to contact the seller for product orders).</p>
         </div>
     </div>
   </div>
