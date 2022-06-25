@@ -311,8 +311,6 @@ h2 {
 }
 .rounded-circle {
     border-radius: 50% !important;
-    margin-top: -10em;
-    margin-left: -2.6em;
 }
 
 .shadow-sm {
